@@ -33,4 +33,30 @@ body{
   border-bottom: 1px solid #fe8c45;
 }
 
+/* hero/carousal section*/
+
+.large-font {
+    font-size: 100px;
+    font-weight: 700;
+  }
+  .hero-color {
+    color: #8a47f6;
+  }
+  .h-line {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background-color: #8a47f6;
+    border-radius: 20px;
+  }
+  .slides {
+    height: 25px;
+    width: 25px;
+    background-color: #ededed;
+  }
+  .slider-control{
+    width: 58%;
+    position: absolute;
+    right: 0;
+  }
 
