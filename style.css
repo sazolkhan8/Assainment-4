@@ -68,8 +68,8 @@ body{
   .photo-bg{
     background-color: #8a47f617;
   }
-  
-/***************** SECTION 3 ************/
+
+/*Portfolio section*/
 
 .activate{
     border-bottom: 2px solid #8a47f6;
@@ -78,4 +78,15 @@ body{
   .sec3-h1{
     font-size: 63px;
     font-weight: 700;
+  }
+
+  /*Prices section*/
+
+.price-h1{
+    font-size: 64px;
+    font-weight: 700;
+  }
+  .price-h1-2{
+    font-size: 60px;
+    font-weight: 900;
   }
