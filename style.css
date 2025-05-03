@@ -4,6 +4,8 @@ body{
   font-family: "Quicksand", sans-serif;
 
 }
+/*global style start*/
+
 .btn {
   background-color: #fe8c45;
   color: white;
@@ -17,13 +19,12 @@ body{
   cursor: pointer;
 }
 
-.mlk{
-  margin-left: 2px;
-  margin-right: 2px;
-}
 .span-color{
     color: #8a47f6;
 }
+
+/*global style end*/
+
 /*navbar section*/
 
 .nav-link {
@@ -118,4 +119,16 @@ body{
   }
   .sm{
     font-size: 22px;
+  }
+
+  /************SECTION 7 ************/
+
+.que-h1{
+    font-size: 60px;
+  }
+  .msgInputHeight{
+    height: 280px;
+  }
+  .changes-top{
+    margin-top: 90px;
   }
