@@ -76,7 +76,7 @@ body{
     border-bottom: 2px solid #8a47f6;
     color: #8a47f6;
   }
-  .sec3-h1{
+  .portfolio-h1{
     font-size: 63px;
     font-weight: 700;
   }
@@ -121,7 +121,7 @@ body{
     font-size: 22px;
   }
 
-  /************SECTION 7 ************/
+  /*Question section*/
 
 .que-h1{
     font-size: 60px;
@@ -131,4 +131,43 @@ body{
   }
   .changes-top{
     margin-top: 90px;
+  }
+
+  /* Responsive Side */
+
+  @media (max-width: 768px) {
+    .large-font{
+      font-size: 60px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .large-font{
+      font-size: 35px;
+    }
+    .h-line{
+        width: 100px;
+        height: 20px;
+    }
+    /*Photography section*/
+    .big-font2{
+        font-size: 35px;
+    }
+
+    /*Portfolio section*/
+    .portfolio-h1{
+        font-size: 35px;
+    }
+    /*Client section*/
+    .client-h1{
+        font-size: 35px;
+    }
+    /*Instagram section*/
+    .ins-h1{
+        font-size: 25px;
+    }
+    /*Question section*/
+    .que-h1{
+        font-size: 35px;
+    }
   }
