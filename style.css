@@ -21,8 +21,10 @@ body{
   margin-left: 2px;
   margin-right: 2px;
 }
-
-/************ NAVBAR ************/
+.span-color{
+    color: #8a47f6;
+}
+/*navbar section*/
 
 .nav-link {
   font-size: 20px;
@@ -38,9 +40,6 @@ body{
 .large-font {
     font-size: 100px;
     font-weight: 700;
-  }
-  .hero-color {
-    color: #8a47f6;
   }
   .h-line {
     display: inline-block;
@@ -60,3 +59,12 @@ body{
     right: 0;
   }
 
+  /*Photography section*/
+
+  .big-font2 {
+    font-size: 70px;
+    font-weight: 800;
+  }
+  .photo-bg{
+    background-color: #8a47f617;
+  }
